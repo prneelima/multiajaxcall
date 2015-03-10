@@ -1,0 +1,24 @@
+table{
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	vertical-align: center;
+}
+table,th,td {
+	border: 1px solid black;
+}
+th{
+	width : 100px;
+	height: 100px;
+}
+
+#loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('img/spin.gif') 50% 50% no-repeat rgb(249,249,249);
+   }
+}
